@@ -6,6 +6,9 @@
   5. npm start || npm run dev                    启动初始化项目
   
 2.打开微信开发者工具，导入项目，路径使用 xxxxx
+  2.1 小程序中不支持使用axios，会报错： XMLHttpRequest is not a constructor
+  2.2	原因: 小程序的环境和浏览器的环境不一样
+  2.3 解决方法: 使用其他库: flyio
 
 3.fly使用教程
   3.3.1  gitHub地址
